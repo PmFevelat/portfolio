@@ -544,7 +544,7 @@ export const products = [
           <div className="w-full overflow-hidden rounded-lg shadow-md">
             <Image 
               src="/images/accueill.png" 
-              alt="Page d'accueil" 
+              alt="Page d&apos;accueil" 
               width={800}
               height={600}
               className="w-full"
@@ -660,7 +660,7 @@ export const products = [
       <div>
         <p>
           <strong>Overview</strong><br />
-          Reelay helps B2B teams understand who really matters inside complex organizations by mapping decision roles, influence links, and engagement levels throughout the deal's progression.
+          Reelay helps B2B teams understand who really matters inside complex organizations by mapping decision roles, influence links, and engagement levels throughout the deal&apos;s progression.
           It builds a live graph of the buying center by combining CRM data with LinkedIn interactions between employees, so teams can prioritize the right contacts and simulate message propagation before acting.
         </p>
         
@@ -757,7 +757,7 @@ export const products = [
         <p>
           <strong>Overview</strong><br />
           Presence allows listeners to commission personalized music videos based on their own memories and emotions.
-          Artists define the visual universe of their songs, while AI creators use this framework to craft unique clips that reflect each listener's story. Each video becomes a co-created emotional experience — shaped by the artist, interpreted by the creator, and inspired by the listener.
+          Artists define the visual universe of their songs, while AI creators use this framework to craft unique clips that reflect each listener&apos;s story. Each video becomes a co-created emotional experience — shaped by the artist, interpreted by the creator, and inspired by the listener.
         </p>
         
         <p>
@@ -895,7 +895,7 @@ export const products = [
         <p>
           <strong>Overview</strong><br />
           Juntoo redefines how we engage with art by turning the creative process into a shared, real-time experience.
-          Rather than showcasing only finished works, the platform creates an "open-air studio" where artists share their work in progress, interact with peers, and invite clients into their creative journey.
+          Rather than showcasing only finished works, the platform creates an &quot;open-air studio&quot; where artists share their work in progress, interact with peers, and invite clients into their creative journey.
         </p>
         
         <p>
@@ -905,7 +905,7 @@ export const products = [
         <ul>
           <li>Artists stream their creative process, receive feedback, and connect with other artists</li>
           <li>Clients follow the evolution of an artwork and commission custom pieces directly from the creative flow</li>
-          <li>All users interact within a dynamic environment where art is visible as it's made — not just once it's finished</li>
+          <li>All users interact within a dynamic environment where art is visible as it&apos;s made — not just once it&apos;s finished</li>
         </ul>
         
         <div className="mt-4 mb-8">
