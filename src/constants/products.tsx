@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const products = [
   {
     href: "/projects/calice",
@@ -27,47 +29,57 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/explorestartup.png" 
               alt="Explore startups" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/scoring.png" 
               alt="Startup scoring" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/profilcontrats.png" 
               alt="Contract profiles" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/contratsencours.png" 
               alt="Ongoing contracts" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/ponderation.png" 
               alt="Weighting factors" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
         </div>
@@ -103,38 +115,46 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/track.png" 
               alt="Track your tools" 
-              className="w-full object-cover"
-              style={{ maxHeight: "600px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "cover", maxHeight: "600px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/search.png" 
               alt="Search for tools" 
-              className="w-full object-cover"
-              style={{ maxHeight: "600px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "cover", maxHeight: "600px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/profile.png" 
               alt="User profile" 
-              className="w-full object-cover"
-              style={{ maxHeight: "600px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "cover", maxHeight: "600px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/tool.png" 
               alt="Tool details" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
         </div>
@@ -198,29 +218,35 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/graph.png" 
               alt="Graph visualization" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/selected.png" 
               alt="Selected software" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/assistant.png" 
               alt="AI assistant" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
         </div>
@@ -284,29 +310,35 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/search1.png" 
               alt="Skopa search" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/result.png" 
               alt="Skopa results" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/product.png" 
               alt="Skopa product page" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
         </div>
@@ -341,29 +373,35 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/logo.png" 
               alt="Logo Ondanse" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/outsidemail.png" 
               alt="Outside mail view" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/insidemail.png" 
               alt="Inside mail view" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "none" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto" }}
             />
           </div>
         </div>
@@ -428,38 +466,46 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/input.png" 
               alt="Input interface" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/secured.png" 
               alt="Secured data" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/resultss.png" 
               alt="Results view" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/dashboardd .png" 
               alt="Dashboard" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
         </div>
@@ -496,38 +542,46 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/accueill.png" 
               alt="Page d'accueil" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/fiche.png" 
               alt="Fiche entreprise" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/ia.png" 
               alt="Interface IA" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/resultatt.png" 
               alt="Résultats" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
         </div>
@@ -586,7 +640,7 @@ export const products = [
         </p>
         <ul>
           <li>Connect your CRM or outbound tool to declare prospect interactions (anonymously)</li>
-          <li>View an aggregated "pressure score" showing volume and type of messages received by each contact</li>
+          <li>View an aggregated &quot;pressure score&quot; showing volume and type of messages received by each contact</li>
           <li>Identify when a prospect is over-solicited, and how your outreach compares to others</li>
           <li>Adapt timing and messaging accordingly using the influence graphs made of other commercial offers</li>
         </ul>
@@ -654,29 +708,35 @@ export const products = [
 
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/homme.png" 
               alt="Homme avec vêtements virtuels" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/review.png" 
               alt="Écran de review" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/history.png" 
               alt="Historique des essayages" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
         </div>
@@ -707,7 +767,7 @@ export const products = [
         <ul>
           <li>Artists define the visual identity of their tracks (mood, style, color palette, atmosphere)</li>
           <li>Listeners choose a song and describe the memory or feeling they associate with it</li>
-          <li>AI creators generate a custom video aligned with both the artist's universe and the listener's input</li>
+          <li>AI creators generate a custom video aligned with both the artist&apos;s universe and the listener&apos;s input</li>
           <li>The video is delivered and can be viewed, shared, or collected on the platform</li>
           <li>Listeners experience music through personal stories — beyond standard music video</li>
         </ul>
@@ -742,65 +802,79 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/1.png" 
               alt="Presence V2 - Image 1" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/2.png" 
               alt="Presence V2 - Image 2" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/3.png" 
               alt="Presence V2 - Image 3" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/4.png" 
               alt="Presence V2 - Image 4" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/5.png" 
               alt="Presence V2 - Image 5" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/6.png" 
               alt="Presence V2 - Image 6" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/7.png" 
               alt="Presence V2 - Image 7" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
         </div>
@@ -864,65 +938,79 @@ export const products = [
         
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/début.png" 
               alt="Page de démarrage Juntoo" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/video.png" 
               alt="Interface vidéo Juntoo" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/thread.png" 
               alt="Fil de discussion Juntoo" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/searc.png" 
               alt="Recherche Juntoo" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/profyl.png" 
               alt="Profil utilisateur Juntoo" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/commande1.png" 
               alt="Commande étape 1 Juntoo" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
           
           <div className="w-full overflow-hidden rounded-lg shadow-md">
-            <img 
+            <Image 
               src="/images/commande2 .png" 
               alt="Commande étape 2 Juntoo" 
-              className="w-full object-contain"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }}
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
             />
           </div>
         </div>

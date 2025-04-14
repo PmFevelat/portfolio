@@ -1,10 +1,13 @@
 "use client";
+import Image from "next/image";
 import { Product } from "@/types/products";
 import React, { CSSProperties } from "react";
 import { Heading } from "./Heading";
 import { Paragraph } from "./Paragraph";
 
 export const SingleProduct = ({ product }: { product: Product }) => {
+  const imageUrl = product.images[0];
+  
   // Utiliser directement le chemin absolu pour l'image
   const getImagePath = () => {
     if (typeof product.thumbnail === 'string') {
@@ -28,8 +31,6 @@ export const SingleProduct = ({ product }: { product: Product }) => {
     return "";
   };
 
-  const imageUrl = getImagePath();
-  
   // Choisir le style d'affichage en fonction du titre du projet
   const getImageStyle = (): CSSProperties => {
     // Pour Presence V2, utiliser une approche spéciale pour afficher l'image complète
@@ -88,11 +89,14 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           alignItems: 'center',
           justifyContent: 'center'
         }}
-          >
-        <img
+      >
+        <Image
           src={imageUrl}
           alt={product.title}
+          width={800}
+          height={400}
           style={getImageStyle()}
+          className="w-full h-full"
         />
       </div>
 
@@ -102,15 +106,17 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           className="w-full bg-gray-50 overflow-hidden mt-4"
           style={{ height: '400px' }}
         >
-          <img
+          <Image
             src="/images/peerz.png"
             alt={product.title}
+            width={800}
+            height={400}
             style={{ 
               width: '100%',
               height: '100%',
               objectFit: 'cover',
               objectPosition: 'center'
-            } as CSSProperties}
+            }}
           />
         </div>
       )}
