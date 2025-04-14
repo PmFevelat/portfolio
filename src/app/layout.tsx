@@ -10,9 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Developer",
+  title: "Portfolio PM",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Portfolio de Pierre-Marie Fevelat, Product Manager spécialisé dans les outils SaaS.",
+  icons: {
+    icon: '/portfolio-icon.svg',
+  },
 };
 
 export default function RootLayout({
