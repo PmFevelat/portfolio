@@ -2,6 +2,138 @@ import Image from "next/image";
 
 export const products = [
   {
+    href: "/projects/waze-glassdoor-sales-intel",
+    title: "Waze / Glassdoor for Sales Intelligence",
+    description: "A feedback-sharing platform to identify key influencers within target accounts.",
+    thumbnail: "/images/waze.png",
+    images: ["/images/waze.png"],
+    stack: ["Sales Intelligence", "Account Mapping", "Feedback Sharing"],
+    slug: "waze-glassdoor-sales-intel",
+    content: (
+      <div>
+        <p>
+          <strong>Overview</strong><br />
+          A feedback-sharing platform that helps sales teams identify key influencers within target accounts (potential champions, blockers, etc.).
+        </p>
+        <p>
+          <strong>How it works</strong><br />
+        </p>
+        <ul>
+          <li><strong>Feedback Input :</strong> Sales reps log key stakeholder insights (eg one at Danone) directly via CRM or Slack—tagging champions, blockers, etc.</li>
+          <li><strong>Matching Engine :</strong> Feedback is matched with other users' insights based on three criteria :
+            <ul>
+              <li>Le user n'est pas un concurrent.</li>
+              <li>Il s'intéresse à un de mes comptes (ex : Danone).</li>
+              <li>Il détient des insights sur un de mes ICPs (ex : Airbus).</li>
+            </ul>
+            Si un match est trouvé, les deux utilisateurs sont notifiés et l'échange a lieu instantanément. Sinon, je gagne un crédit pour débloquer un futur insight de mon choix sur la plateforme.
+          </li>
+          <li><strong>Network Effect :</strong> Mon account mapping s'enrichit au fil du temps à mesure que d'autres utilisateurs interagissent avec mes feedbacks et partagent des insights pertinents en retour.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    href: "/projects/back-again-sales-tech",
+    title: "Back again in the sales industry",
+    description: "Understanding sales intelligence tools and exploring the ecosystem around stakeholder mapping in complex deals.",
+    thumbnail: "/images/accountmapping.png",
+    images: ["/images/accountmapping.png", "/images/centralize.png"],
+    stack: ["Sales Intelligence", "Relationship Mapping", "Enterprise Sales"],
+    slug: "back-again-sales-tech",
+    content: (
+      <div>
+        <p>
+          <strong>Themes</strong><br />
+          Sales intelligence, lookalike search, sales automation, data enrichment, data providers, opportunity management, relationship mapping, enterprise sales, revenue platforms, audio transcription, CRM auto-fill.
+        </p>
+        <p>
+          <strong>Goal</strong><br />
+          Explore the AI revolution in automatic CRM data capture. On the one hand, I explored how AI bring greater visibility to sales leaders and enable platforms focused on deal and pipeline management also evolving toward revenue forecasting. On the other hand, I digged deeper into relationship mapping tools helping sales teams at all levels (sales reps, AEs/AMs, sales leaders) monitor and close deals more effectively. All GTM teams (sales, marketing, customer success) can now align around a single source of truth.
+        </p>
+        <div className="w-full overflow-hidden rounded-lg shadow-md mt-8">
+          <Image 
+            src="/images/centralize.png" 
+            alt="Centralize" 
+            width={800}
+            height={400}
+            className="w-full"
+            style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
+          />
+        </div>
+      </div>
+    ),
+  },
+  {
+    href: "/projects/transition-insurance",
+    title: "Transition insurance for challenger software",
+    description: "A transition insurance to help challenger softwares convince companies hesitant to leave market leaders.",
+    thumbnail: "/images/abm.png",
+    images: ["/images/abm.png", "/images/abm.png"],
+    stack: ["Insurance", "Risk Assessment", "Sales Enablement"],
+    slug: "transition-insurance",
+    content: (
+      <div>
+        <p>
+          <strong>Initial project</strong><br />
+          A transition insurance to help challenger softwares convince companies hesitant to leave market leaders (reimbursement / migration coverage in case of issues).
+        </p>
+        
+        <p>
+          <strong>How it works</strong><br />
+        </p>
+        <ul>
+          <li>Quality assessment: The software is evaluated on performance (telemetry, analytics), compliance, and security to earn a quality badge required for insurance eligibility.</li>
+          <li>Risk profiling: Success stories and client feedback help define typical user profiles and determine insurable clients and premiums.</li>
+          <li>Sales enablement: Sales teams promote the transition insurance as part of their pitch to reduce buyer hesitation.</li>
+        </ul>
+
+        <p>
+          <strong>Pivot</strong><br />
+          Insurance contracts for software integration projects. Just as borrowers are scored for default risk, major IT projects (e.g., ERP implementation, large-scale integrations) can be scored based on their likelihood of success or failure.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "/projects/it-systems-explorations",
+    title: "4 Explorations in IT Systems, ERP, and Software Integration",
+    description: "Exploring modern approaches to legacy systems, ERP integration, and digital transformation.",
+    thumbnail: "/images/abm.png",
+    images: ["/images/abm.png", "/images/abm.png"],
+    stack: ["ERP", "Legacy Systems", "Digital Transformation"],
+    slug: "it-systems-explorations",
+    content: (
+      <div>
+        <p>
+          <strong>Themes</strong><br />
+          ERP legacy systems, monolithic vs best-of-breed ERP, IT modularization, digital transformation projects, system integrators, iPaaS, monitoring and observability tools—now applied to LLMs.
+        </p>
+        <p>
+          <strong>Projects</strong><br />
+        </p>
+        <ol style={{paddingLeft: '1.2em'}}>
+          <li style={{marginBottom: '1em'}}>
+            <strong>Analytics tool for monolithic ERP modules</strong><br />
+            Goal: Identify underused modules and costly or overly customized processes. Recommend offloading to best-of-breed services and orchestrate integration via MACH frameworks or reliable middleware.
+          </li>
+          <li style={{marginBottom: '1em'}}>
+            <strong>AI-powered engagement layer on legacy ERPs</strong><br />
+            Goal: Add a modern user interface and workflow layer over legacy systems without replacing them. Integrate AI (chat assistants, automation) to simplify the use, keeping the legacy ERP as the system of record.
+          </li>
+          <li style={{marginBottom: '1em'}}>
+            <strong>Screen-to-workflow configuration tool for software migrations</strong><br />
+            Goal: Use AI computer vision to analyze internal screenshots and video recordings, and auto-generate initial configurations in new ERP/CRM systems (e.g., fields, workflows). Speed up the setup and configuration phases.
+          </li>
+          <li>
+            <strong>IT system mapping tool for legacy architecture refactoring</strong><br />
+            Goal: Analyze legacy codebases (.NET, Java…), detect dependencies, and generate refactoring or decomposition plans. Automate parts of the "strangler fig pattern" to extract microservices or migrate code to modern languages.
+          </li>
+        </ol>
+      </div>
+    ),
+  },
+  {
     href: "/projects/calice",
     title: "Calice",
     description:
@@ -517,8 +649,8 @@ export const products = [
     title: "Shazam for need discovery V2",
     description:
       "Let companies discover their needs — before you pitch.",
-    thumbnail: "/images/accueill.png",
-    images: ["/images/accueill.png", "/images/accueill.png"],
+    thumbnail: "/images/abm.png",
+    images: ["/images/abm.png", "/images/abm.png"],
     stack: ["Latent Demand Signals", "Salesless Onboarding", "Consent-Based Activation"],
     slug: "shazam-3",
     content: (
@@ -543,7 +675,7 @@ export const products = [
         <div className="mt-8 flex flex-col gap-6">
           <div className="w-full overflow-hidden rounded-lg shadow-md">
             <Image 
-              src="/images/accueill.png" 
+              src="/images/abm.png" 
               alt="Page d&apos;accueil" 
               width={800}
               height={600}

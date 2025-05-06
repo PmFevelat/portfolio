@@ -47,6 +47,19 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         backgroundColor: '#f9fafb'
       } as CSSProperties;
     }
+    // Pour Waze / Glassdoor for Sales Intelligence, toujours afficher l'image en entier
+    if (product.title === "Waze / Glassdoor for Sales Intelligence") {
+      return {
+        width: '100%',
+        height: 'auto',
+        maxHeight: '420px',
+        objectFit: 'contain',
+        objectPosition: 'center',
+        backgroundColor: '#f9fafb',
+        margin: '0 auto',
+        display: 'block',
+      } as CSSProperties;
+    }
     // Pour les projets avec des images qui nécessitent un cadrage spécial
     else if (product.title === "Calice" || product.title === "Skopa (Graph)" || product.title === "Skopa (AI Agent)" || product.title === "Ondanse" || product.title === "Metricore" || product.title === "Kascad" || product.title === "Shazam for need discovery V2" || product.title === "Juntoo") {
       return {
@@ -146,7 +159,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         {product?.content}
       </div>
 
-      {product.title !== "Kascad" && product.title !== "Shazam for need discovery" && product.title !== "Shazam for need discovery V2" && product.title !== "Peerz" && product.title !== "Calice" && product.title !== "Skopa (Graph)" && product.title !== "Skopa (AI Agent)" && product.title !== "Ondanse" && product.title !== "Metricore" && product.title !== "Presence V2" && product.title !== "Juntoo" && product.title !== "Syncrowd" && product.title !== "Reelay" && (
+      {product.title !== "Kascad" && product.title !== "Shazam for need discovery" && product.title !== "Shazam for need discovery V2" && product.title !== "Peerz" && product.title !== "Calice" && product.title !== "Skopa (Graph)" && product.title !== "Skopa (AI Agent)" && product.title !== "Ondanse" && product.title !== "Metricore" && product.title !== "Presence V2" && product.title !== "Juntoo" && product.title !== "Syncrowd" && product.title !== "Reelay" && product.title !== "Transition insurance for challenger software" && product.title !== "4 Explorations in IT Systems, ERP, and Software Integration" && product.title !== "Back again in the sales tech industry" && product.title !== "Waze / Glassdoor for Sales Intelligence" && (
       <a
         href={product.href}
         target="__blank"

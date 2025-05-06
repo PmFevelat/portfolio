@@ -35,7 +35,7 @@ export default function Home() {
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
       >
-        Projects I&apos;ve been exploring over the past 4 months
+        Latest projects in May
       </Heading>
       
       <Products />
