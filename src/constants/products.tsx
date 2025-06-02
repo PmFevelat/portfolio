@@ -2,6 +2,101 @@ import Image from "next/image";
 
 export const products = [
   {
+    href: "/projects/intent-exchange",
+    title: "IntentSwap",
+    description: "A meeting transcript to capture and trade buying signals across sales teams.",
+    thumbnail: "/images/Exchange1.png",
+    images: ["/images/Exchange1.png"],
+    stack: ["Buying Signals", "Meeting Intelligence", "Intent Trading"],
+    slug: "intent-exchange",
+    content: (
+      <div>
+        <p>
+          <strong>Overview</strong><br />
+          A meeting transcript platform that automatically detects buying signals in customer conversations and lets sales teams exchange them for high-intent insights on their own target accounts.
+        </p>
+        
+        <p>
+          <strong>How it works</strong><br />
+        </p>
+        <ol>
+          <li><strong>Step 1: Define your intent preferences</strong><br />
+            Each user sets their preferred buying signals (intents), ideal customer profiles (ICPs), users they don't want to share with (competitors), and those they want to prioritize (partners).
+          </li>
+          <li><strong>Step 2: Sell as usual – we'll capture the rest</strong><br />
+            Keep running your meetings as you normally do. Reelay's smart transcription automatically identifies and highlights buying signals useful to other teams.
+            After each meeting, you can review, edit, and control how each captured intent is shared—whether with specific partners or the broader community—and even schedule when it becomes visible.
+          </li>
+          <li><strong>Step 3: Never share without getting something in return</strong><br />
+            Once validated, each intent is offered to relevant users:
+            <ul>
+              <li>If another user has intent data on one of your targets, you get a trade offer.</li>
+              <li>If no match is available, your intent can be bought using credits—which you can later use to unlock insights on your own ICPs.</li>
+            </ul>
+            In every case, you decide who gets access. You never share without receiving value.
+          </li>
+        </ol>
+
+        <div className="mt-8 flex flex-col gap-6">
+          <div className="w-full overflow-hidden rounded-lg shadow-md">
+            <Image 
+              src="/images/Config1.png" 
+              alt="Configuration interface" 
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
+            />
+          </div>
+          
+          <div className="w-full overflow-hidden rounded-lg shadow-md">
+            <Image 
+              src="/images/Intent1.png" 
+              alt="Intent detection" 
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
+            />
+          </div>
+          
+          <div className="w-full overflow-hidden rounded-lg shadow-md">
+            <Image 
+              src="/images/IntentConfig1.png" 
+              alt="Intent configuration" 
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
+            />
+          </div>
+          
+          <div className="w-full overflow-hidden rounded-lg shadow-md">
+            <Image 
+              src="/images/Exchange1.png" 
+              alt="Exchange interface" 
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
+            />
+          </div>
+          
+          <div className="w-full overflow-hidden rounded-lg shadow-md">
+            <Image 
+              src="/images/Upvote1.png" 
+              alt="Upvote system" 
+              width={800}
+              height={600}
+              className="w-full"
+              style={{ objectFit: "contain", width: "100%", height: "auto", maxHeight: "400px" }}
+            />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+  {
     href: "/projects/waze-glassdoor-sales-intel",
     title: "Waze / Glassdoor for Sales Intelligence",
     description: "A feedback-sharing platform to identify key influencers within target accounts.",
@@ -19,16 +114,16 @@ export const products = [
           <strong>How it works</strong><br />
         </p>
         <ul>
-          <li><strong>Feedback Input :</strong> Sales reps log key stakeholder insights (eg one at Danone) directly via CRM or Slack—tagging champions, blockers, etc.</li>
-          <li><strong>Matching Engine :</strong> Feedback is matched with other users' insights based on three criteria :
+          <li><strong>Feedback Input:</strong> Sales reps log key stakeholder insights (e.g., a contact at Danone) directly via CRM or Slack—tagging champions, blockers, etc.</li>
+          <li><strong>Matching Engine:</strong> Feedback is matched with insights from other users based on three criteria:
             <ul>
-              <li>Le user n'est pas un concurrent.</li>
-              <li>Il s'intéresse à un de mes comptes (ex : Danone).</li>
-              <li>Il détient des insights sur un de mes ICPs (ex : Airbus).</li>
+              <li>The user is not a competitor.</li>
+              <li>They are interested in one of my accounts (e.g., Danone).</li>
+              <li>They have insights on one of my ICPs (e.g., Airbus).</li>
             </ul>
-            Si un match est trouvé, les deux utilisateurs sont notifiés et l'échange a lieu instantanément. Sinon, je gagne un crédit pour débloquer un futur insight de mon choix sur la plateforme.
+            If a match is found, both users are notified and the exchange happens instantly. If not, I earn a credit that I can later use to unlock an insight of my choice on the platform.
           </li>
-          <li><strong>Network Effect :</strong> Mon account mapping s'enrichit au fil du temps à mesure que d'autres utilisateurs interagissent avec mes feedbacks et partagent des insights pertinents en retour.</li>
+          <li><strong>Network Effect:</strong> My account mapping improves over time as other users interact with my feedback and share relevant insights in return.</li>
         </ul>
       </div>
     ),

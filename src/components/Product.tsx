@@ -159,7 +159,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         {product?.content}
       </div>
 
-      {product.title !== "Kascad" && product.title !== "Shazam for need discovery" && product.title !== "Shazam for need discovery V2" && product.title !== "Peerz" && product.title !== "Calice" && product.title !== "Skopa (Graph)" && product.title !== "Skopa (AI Agent)" && product.title !== "Ondanse" && product.title !== "Metricore" && product.title !== "Presence V2" && product.title !== "Juntoo" && product.title !== "Syncrowd" && product.title !== "Reelay" && product.title !== "Transition insurance for challenger software" && product.title !== "4 Explorations in IT Systems, ERP, and Software Integration" && product.title !== "Back again in the sales tech industry" && product.title !== "Waze / Glassdoor for Sales Intelligence" && (
+      {product.title !== "Kascad" && product.title !== "Shazam for need discovery" && product.title !== "Shazam for need discovery V2" && product.title !== "Peerz" && product.title !== "Calice" && product.title !== "Skopa (Graph)" && product.title !== "Skopa (AI Agent)" && product.title !== "Ondanse" && product.title !== "Metricore" && product.title !== "Presence V2" && product.title !== "Juntoo" && product.title !== "Syncrowd" && product.title !== "Reelay" && product.title !== "Transition insurance for challenger software" && product.title !== "4 Explorations in IT Systems, ERP, and Software Integration" && product.title !== "Back again in the sales tech industry" && product.title !== "Waze / Glassdoor for Sales Intelligence" && product.title !== "Intent Exchange" && (
       <a
         href={product.href}
         target="__blank"

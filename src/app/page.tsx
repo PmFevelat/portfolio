@@ -19,24 +19,14 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there!</Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m Pierre-Marie, a student at HEC Paris and a founder at heart. You&apos;ll find more about me in the About section.
+        I&apos;m Pierre-Marie, a student at HEC Paris and a founder at heart. You&apos;ll find more about me in the About section. This website showcases the projects I&apos;ve explored over the past months in search of my next startup — testing key assumptions as fast as possible, trying to build something people truly want.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        This website showcases the projects I&apos;ve explored over the past four months in search of my next startup — testing key assumptions as fast as possible, trying to build something people truly want.
+        Before building anything, I wanted to understand how companies actually buy — how they're prospected, how trust is earned, and how new solutions break through. That led me to explore the mechanics of software sales in depth. Along the way, I ran experiments that turned into projects — rethinking how we discover new tools in a world where traditional sales channels are saturated, marketing is biased, and word of mouth favors incumbents.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        As you&apos;ll see, many of these projects are driven by a core focus: rethinking how we discover new software and innovative players — in a world where traditional sales channels are saturated, marketing is often biased, and word of mouth tends to favor incumbents.
+        This exploration naturally led me deeper into the sales & marketing space. I've since worked across the entire value chain — from positioning and sales enablement to buyer intelligence and win-loss analysis. It&apos;s an industry I'm excited to keep building in.
       </Paragraph>
-      <Paragraph className="max-w-xl mt-4">
-        Even if these projects didn&apos;t succeed, they taught me a lot about the mechanics of software sales — especially how to build trust as a new player. Insights I&apos;ll carry into the go-to-market strategy of my next startup.
-      </Paragraph>
-      
-      <Heading
-        as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
-      >
-        Latest projects in May
-      </Heading>
       
       <Products />
       <TechStack />
